@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class HillWeight {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int weight = 0;
+        for (int i = 1; i <= n; i++) {
+            weight += i;
+        }
+
+        System.out.println(weight);
+    }
+}
