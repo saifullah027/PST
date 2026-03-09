@@ -23,7 +23,6 @@ public class TopKStudents{
             students.add(new Students(name,marks));
         }
         int K=sc.nextInt();
-    
              List<String> result =
                 students.stream()
                         .sorted(
